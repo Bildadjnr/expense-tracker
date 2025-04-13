@@ -1,6 +1,4 @@
-// components/ExpenseForm.jsx
 import { useState } from "react";
-// import "./ExpenseForm.css";
 
 function ExpenseForm({ onSubmit }) {
   const [formData, setFormData] = useState({
@@ -70,8 +68,6 @@ function ExpenseForm({ onSubmit }) {
         value={formData.amount}
         onChange={handleChange}
         placeholder="Enter amount"
-        // min="0"
-        // step="0.01"
         required
       />
       <input

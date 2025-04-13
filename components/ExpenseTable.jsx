@@ -1,6 +1,4 @@
-// components/ExpenseTable.jsx
 import React from "react";
-// import "./ExpenseTable.css";
 
 function ExpenseTable({ expenses }) {
   if (expenses.length === 0) {
