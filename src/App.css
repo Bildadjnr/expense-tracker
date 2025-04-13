@@ -1,0 +1,51 @@
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.expense-form button {
+  background: black;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.expense-table th {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.expense-table tr:hover {
+  background: white;
+}
+
+.form-div
+.table-div {
+  flex: 1;
+}
+
+.content-div{
+  display: flex;
+}
